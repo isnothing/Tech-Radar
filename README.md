@@ -1,5 +1,8 @@
 Tech-Radar
 ==========
 
-A node.js project
+简介
 ----------
+
+
+该应用后端使用node.js实现，启动该应用需要建立数据表
