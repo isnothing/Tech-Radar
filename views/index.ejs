@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+			body{ background: white; width: 1400px;overflow-x:hidden;}
+			#slider{ position:relative; left:10px; top:0px; width: 100%;}
+			#center{ position:absolute; left:670px; top:400px;}
+			#start{position:relative; float:left; left:10px; top:-20px;}
+			#interim{position:relative; float:left; left:660px; top:-20px;}
+			#end{position:relative; left:1300px; top:-20px;}
+			#canvas{position:absolute; left:180px; top: 60px;}
+			#info{position:relative;left:0px; top:0px; width: 160px;white-space: pre-wrap;word-wrap: break-word;}
+			.item{position:relative; left:15px; top:-20px; margin:5px;}
+			h4 {margin: .40em 0;font-size: 15px;}
+		</style>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  		<script type="text/javascript" src="javascripts/jequery.min.js"></script>
+  		<script type="text/javascript" src="javascripts/jquery-ui.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="javascripts/draw.js"></script>
+		<script type="text/javascript" src="javascripts/timeline.js"></script>
+		<title>Sharenjoy</title>
+	</head>
+	<body>
+		<div id="slider"></div>
+		<h5 id="start">2004</h5>
+		<h5 id="interim">2009</h5>
+		<h5 id="end">2014</h5>
+		<div class="item"><h4>技术雷达(测试版)</h4></div>
+		<div class="item" id="now">请选定时间:</div>
+		<div class="item" id="select">圈子选择:
+			<select id="circle">
+  				<option value="1">后端</option>
+  				<option value="2">前端</option>
+			</select>
+		</div>
+		<div class="item">
+			<pre id="info">
+				说明: 每个技术项与圆心距离为其相对热度值。相对热度值从google trends抓取，表示某一时间段全球搜索该关键词总次数的相对值。
+			</pre>
+		</div>
+		<canvas id="canvas">该浏览器不支持html5</canvas>
+		<div id="center"></div>
+	</body>
+</html>
