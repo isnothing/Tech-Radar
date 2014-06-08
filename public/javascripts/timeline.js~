@@ -1,4 +1,4 @@
-var socket = io.connect('localhost');
+var socket = io.connect('192.168.140.32');
 var past = -1;
 $(function() {
 	$( "#slider" ).slider({
