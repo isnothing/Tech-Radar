@@ -1,9 +1,13 @@
 {
-  "name": "application-name",
+  "name": "tech-radar",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
+  },
+  "author": {
+ 	"name": "taojx",
+    "email": "tajpure@gmail.com"
   },
   "dependencies": {
     "express": "~4.0.0",
