@@ -3,19 +3,47 @@ Tech-Radar
 
 简介
 ----------
+该应用使用node.js实现，使用express框架开发。用于展示技术关键词随时间变化呈现出来的热度变化。
 
+说明
+---------
+需要安装mysql, node.js
 
-该应用后端使用node.js实现，启动该应用需要建立MySQL数据表。建表语句如下:
-  >CREATE TABLE `circle` (`cid` int(10) DEFAULT NULL,`title` varchar(100) DEFAULT NULL)
-  ENGINE=MyISAM DEFAULT CHARSET=utf8;
+mysql安装方法：
 
-  >CREATE TABLE `google_trends` (`title` varchar(50) DEFAULT NULL,`time_interval` varchar(100) DEFAULT NULL,
-  `google_index` int(5) DEFAULT NULL
-  ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-  注:google trends表用于存放技术关键词及其热度值（1~100），circle表用于存放技术圈子编号及其圈内技术。
-  
+ubuntu
+>sudo apt-get install mysql-server
+本应用mysql数据库用户名和密码均为root, 数据库名为hoolai_share，可以直接修改daos/google-trends-dao.js中更改这些信息。
 
-安装好node.js后直接在命令行运行app.js即可启动。
-在浏览器输入localhost:3000开始使用应用。
+node.js安装方法:
+
+1,安装依赖:
+
+ubuntu
+>sudo apt-get install g++ curl libssl-dev apache2-utils
+sudo apt-get install python
+sudo apt-get install build-essential
+sudo apt-get install gcc
+sudo apt-get install g++
+
+2，下载与安装node.js
+>wget http://nodejs.org/dist/v0.10.14.tar.gz
+tar -zxf node-v0.10.14.tar.gz
+cd node-vo.10.14
+./configure
+make
+sudo make install
+./configure -prefix=/usr/local/node
+make
+sudo make install
+
+>node --version
+输出v0.10.14即成功
+
+启动该应用需要建立MySQL数据表。直接将tech-radar.sql文件导入mysql数据库中即可，导入方式如下:
+在tech_radar.sql所处目录下，运行如下语句，
+>mysql -uroot -proot hoolai_share < tech_radar.sql
+
+在浏览器输入localhost:3000即可开始使用应用。
 
 
