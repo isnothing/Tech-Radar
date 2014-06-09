@@ -12,6 +12,7 @@ Tech-Radar
 mysql安装方法：
 
 ubuntu
+
     sudo apt-get install mysql-server
 本应用mysql数据库用户名和密码均为root, 数据库名为hoolai_share，可以直接修改daos/google-trends-dao.js中更改这些信息。
 
@@ -20,6 +21,7 @@ node.js安装方法:
 1,安装依赖:
 
 ubuntu
+
     sudo apt-get install g++ curl libssl-dev apache2-utils
     sudo apt-get install python
     sudo apt-get install build-essential
@@ -27,6 +29,7 @@ ubuntu
     sudo apt-get install g++
 
 2，下载与安装node.js
+
     wget http://nodejs.org/dist/v0.10.14.tar.gz
     tar -zxf node-v0.10.14.tar.gz
     cd node-vo.10.14
@@ -37,11 +40,13 @@ ubuntu
     make
     sudo make install
 
+
     node --version
 输出v0.10.14即成功
 
 启动该应用需要建立MySQL数据表。直接将tech-radar.sql文件导入mysql数据库中即可，导入方式如下:
 在tech_radar.sql所处目录下，运行如下语句，
+
     mysql -uroot -proot hoolai_share < tech_radar.sql
 
 在浏览器输入localhost:3000即可开始使用应用。
