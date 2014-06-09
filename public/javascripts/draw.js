@@ -1,8 +1,8 @@
-var Data = null;
+﻿var Data = null;
 var RADIUS = 329;
 var posArray = [];
 
-var socket = io.connect('192.168.140.32');
+var socket = io.connect('localhost');
 socket.on('result', function (data) {
 	Data = data;
 	socket.emit('my other event', { my: 'data' });
