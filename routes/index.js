@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var result = require('../daos/tech-dao');
+/*var result = require('../daos/tech-dao');*/
 
 /* GET home page. */
 router.get('/', function(req, res) {
