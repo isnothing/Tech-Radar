@@ -7,11 +7,9 @@ Tech-Radar
 
 说明
 ---------
-需要安装mysql, node.js
+需要安装mysql, node.js(ubuntu环境）
 
 mysql安装方法：
-
-ubuntu
 
     sudo apt-get install mysql-server
 本应用mysql数据库用户名和密码均为root, 数据库名为hoolai_share，可以直接修改daos/google-trends-dao.js中更改这些信息。
@@ -20,7 +18,7 @@ node.js安装方法:
 
 1,安装依赖:
 
-ubuntu
+
 
     sudo apt-get install g++ curl libssl-dev apache2-utils
     sudo apt-get install python
