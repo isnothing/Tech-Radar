@@ -50,4 +50,5 @@ node.js安装方法:
 导入数据库之后在当前目录输入node app.js即可启动。在浏览器输入localhost:3000开始使用应用。
 
 应用截图:
+----
 ![image](/demo/TechRadar.png)
