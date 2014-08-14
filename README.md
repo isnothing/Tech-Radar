@@ -12,7 +12,7 @@
 mysql安装方法：
 
     sudo apt-get install mysql-server
-本应用mysql数据库用户名和密码均为root, 数据库名为hoolai_share，可以直接修改daos/google-trends-dao.js中更改这些信息。
+本应用mysql数据库用户名和密码均为root, 数据库名为tech_radar，可以直接修改daos/google-trends-dao.js中更改这些信息。
 
 node.js安装方法:
 
