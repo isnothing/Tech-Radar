@@ -55,4 +55,4 @@ node.js安装方法:
 
 License:
 ----
-[MIT](http://opensource.org/licenses/MIT)
+[GPLv3](http://opensource.org/licenses/GPL-3.0)
