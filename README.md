@@ -1,4 +1,4 @@
-Tech-Radar
+﻿Tech-Radar
 ==========
 
 简介
@@ -47,6 +47,10 @@ node.js安装方法:
 
     mysql -uroot -proot hoolai_share < tech_radar.sql
 
+
 在浏览器输入localhost:3000即可开始使用应用。
+应用截图:
+![image](/demo/TechRadar.png)
+
 
 
