@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
   password : 'root',
-  database : 'hoolai_share'
+  database : 'tech_radar'
 });
 
 var indexSet = function(value, socket) {
