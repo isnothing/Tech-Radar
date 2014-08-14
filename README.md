@@ -52,3 +52,7 @@ node.js安装方法:
 应用截图:
 ----
 ![image](/demo/TechRadar.png)
+
+License:
+----
+[MIT](http://opensource.org/licenses/MIT)
