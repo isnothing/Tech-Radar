@@ -7,7 +7,7 @@
 
 说明
 ---------
-需要安装mysql, node.js(ubuntu环境）
+需要安装mysql, node.js(这里只提供ubuntu环境下的安装方法）
 
 mysql安装方法：
 
