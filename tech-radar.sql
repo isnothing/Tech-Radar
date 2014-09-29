@@ -1,8 +1,9 @@
 /*
 SQLyog 企业版 - MySQL GUI v7.14 
-MySQL - 5.5.11 : Database - hoolai_share
+MySQL - 5.5.11 : Database - tech_radar
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -11,9 +12,9 @@ MySQL - 5.5.11 : Database - hoolai_share
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`hoolai_share` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`tech_radar` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
-USE `hoolai_share`;
+USE `tech_radar`;
 
 /*Table structure for table `circle` */
 
