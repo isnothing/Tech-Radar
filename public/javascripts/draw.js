@@ -21,7 +21,7 @@ var draw = function() {
 //绘制雷达图背景
 var drawBackground = function() {
 	var canvasDom = document.getElementById("canvas");
-	canvasDom.setAttribute("width", 1000);
+	canvasDom.setAttribute("width", 980);
 	canvasDom.setAttribute("height", 780);
 	canvasDom.style.backgroundColor  = 'white';
     var ctx = canvasDom.getContext("2d");
