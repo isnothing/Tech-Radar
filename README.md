@@ -45,7 +45,7 @@ node.js安装方法:
 启动该应用需要建立MySQL数据表。直接将tech-radar.sql文件导入mysql数据库中即可，导入方式如下:
 在tech_radar.sql所处目录下，运行如下语句，
 
-    mysql -uroot -proot hoolai_share < tech-radar.sql
+    mysql -uroot -proot tech_radar < tech-radar.sql
 
 导入数据库之后在当前目录输入node app.js即可启动。在浏览器输入localhost:3000开始使用应用。
 
