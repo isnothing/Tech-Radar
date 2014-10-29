@@ -5,7 +5,7 @@
 		<style>
 			body{ background: white; overflow-x:hidden;}
 			#slider{ position:relative; margin: 10px auto;top:0px; width: 100%;}
-			#center{ position:absolute; left:980px; top:400px;}
+			#center{ position:absolute; left:680px; top:400px;}
 			#start{position:relative; float:left; left:10px; top:-20px;}
 			#interim{position:relative; float:left; left:660px; top:-20px;}
 			#end{position:relative; left:1300px; top:-20px;}
@@ -17,7 +17,6 @@
   		<script type="text/javascript" src="javascripts/jequery.min.js"></script>
   		<script type="text/javascript" src="javascripts/jquery-ui.js"></script>
 		<script src="/socket.io/socket.io.js"></script>
-		<script type="text/javascript" src="javascripts/draw.js"></script>
 		<script type="text/javascript" src="javascripts/timeline.js"></script>
 		<title>Sharenjoy</title>
 	</head>
@@ -40,6 +39,7 @@
 			</pre>
 		</div>
 		<canvas id="canvas">该浏览器不支持html5</canvas>
+		<script type="text/javascript" src="javascripts/draw.js"></script>
 		<div id="center"></div>
 	</body>
 </html>

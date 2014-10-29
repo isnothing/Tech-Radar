@@ -206,3 +206,5 @@ var drawCircle = function(ctx, radius) {
 	ctx.lineWidth = 1;
 	ctx.stroke();
 };
+
+drawBackground();
