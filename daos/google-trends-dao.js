@@ -5,8 +5,8 @@ var app = require('../app.js');
 var parser = require('../lib/parser');
 var connection = mysql.createConnection({
   host     : 'localhost',
-  user     : 'root',
-  password : 'root',
+  user     : 'google',
+  password : 'google',
   database : 'tech_radar'
 });
 
