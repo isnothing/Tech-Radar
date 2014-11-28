@@ -51,7 +51,7 @@ node.js安装方法:
 
 应用截图:
 ----
-![image](/demo/tech_radar.gif)
+![image](/demo/TechRadar.gif)
 
 License:
 ----
